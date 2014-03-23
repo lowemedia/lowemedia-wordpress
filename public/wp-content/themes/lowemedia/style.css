@@ -1,0 +1,50 @@
+/*
+Theme Name: Low-Emedia
+Theme URI: http://www.low-emedia.com
+Author: Andrew Lowe
+Author URI: http://www.low-emedia.com
+Description: Low-Emedia
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lowemedia 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@font-face {
+    font-family: 'alexisregular';
+    /* src: url('/fonts/alex.woff-webfont.eot');
+    src: url('/fonts/alex.woff-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/alex.woff-webfont.woff') format('woff'),
+    url('/fonts/alex.woff-webfont.ttf') format('truetype'),
+    url('/fonts/alex.woff-webfont.svg#alexisregular') format('svg');*/
+    src: url('fonts/alex.woff-webfont.woff') format('woff'),
+    url('fonts/alex.woff-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: 100%;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h1.site-title {
+    font-family: 'alexisregular';
+    font-weight: normal;
+    padding: 5px 25px; 
+    margin: 0px 10px;
+    color: #ccc;
+    height: 25px;
+    line-height: 15px;
+}
+
+h1.site-title a {
+    text-decoration: none;
+    color: #000;
+}
